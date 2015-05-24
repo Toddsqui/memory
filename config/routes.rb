@@ -2,6 +2,9 @@ Memory::Application.routes.draw do
 root 'lessons#index'
 
 resources :lessons
+get 'about', :to => 'lessons#about'
+get 'resources', :to => 'lessons#resources'
+get 'contact', :to => 'lessons#contact'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -15,6 +15,16 @@ class LessonsController < ApplicationController
 		redirect_to root_path
 	end
 
+	def about
+	end
+
+	def resources
+	end
+
+	def contact
+	end
+	
+
 	private
 
 	def lesson_params
