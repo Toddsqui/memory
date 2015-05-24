@@ -17,7 +17,8 @@
 }
 
 .links {
-	padding-top: 26px; 
+	padding-top: 26px;
+	font-family: 'bebasregular'; 
 }
 
 .links a {
@@ -31,4 +32,20 @@ header {
 
 hr {
 	clear:both; 
+}
+
+.title {
+	font-family: 'code_pro_light_demoregular';
+	font-size: 27px;
+	margin-left: 104px;
+	margin-top: -99px;
+	font-weight: bold;
+}
+
+.slogan {
+	font-family: 'abeezeeregular';
+}
+
+h1, h2 {
+	font-family: 'ciclefina';
 }
