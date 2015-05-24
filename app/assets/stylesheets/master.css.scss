@@ -1,3 +1,34 @@
 .clear {
 	clear: both; 
 }
+
+.logoReforest 		{ width: 90px; height:100px; position: relative; margin: 90 auto; }
+.logoReforest > div { float: left; width: 15%;  margin: 2.5%; border-radius: 6px; position: relative; }
+.stripe1			{ background: #EB645F; height: 40%; top: 30%; }
+.stripe2			{ background: #E99B5D; height: 70%; top: 15%; }
+.stripe3			{ background: #EEE37A; height: 100%; }
+.stripe4			{ background: #7CCB20; height: 70%; top: 15%; }
+.stripe5			{ background: #669DB6; height: 40%; top: 30%; }
+
+
+.title {
+	margin-left: 115px;
+	margin-top: -53px;
+}
+
+.links {
+	padding-top: 26px; 
+}
+
+.links a {
+	color: black; 
+	font-size: 25px; 
+}
+
+header {
+	border-top: 9px solid #222222;
+}
+
+hr {
+	clear:both; 
+}
