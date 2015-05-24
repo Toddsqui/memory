@@ -7,6 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<header>
 		<div class="col-xs-3">
 		<%= link_to root_path, :class => 'logo' do %>
@@ -20,16 +28,17 @@
 			<% end %>
 			<div class="title">THE <br /> MEMORY <br /> ARSENAL</div>
 			</div>
-						<div class="col-xs-4 slogan">
-						Giving you the strategies you need to assimilate content rapidly, one day at a time.
-						</div>
-									<div class="col-xs-5 links">
+						
+									<div class="col-xs-8 links">
 									<%= link_to 'Contribute', new_lesson_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									<%= link_to 'About', about_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									<%= link_to 'Resources', resources_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									<%= link_to 'Contact', contact_path %>
 									</div>
 	</header>
+						<div class="col-xs-4 slogan">
+						Giving you the strategies you need to assimilate content rapidly, one day at a time.
+						</div>
 	<hr />
 
 	<br class="clear" />
@@ -42,7 +51,8 @@
 <%= yield %>
 <div class="footer">
 	<div class="container">
-		<p class="text-muted">© The Memory Arsenal, 2015</p>
+		<div class="col-xs-8 fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+		<p class="col-xs-4 text-muted">© The Memory Arsenal, 2015</p>
 	</div>
 </div>
 </body>
