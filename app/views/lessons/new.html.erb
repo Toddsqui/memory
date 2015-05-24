@@ -1,0 +1,7 @@
+<h1>Enter quote details</h1>
+<%= simple_form_for @lesson do |f| %>
+		<%= f.input :lesson %>
+		<%= f.input :author %>
+		<br />
+		<%= f.submit 'Create', :class => 'btn btn-danger' %>
+	<% end %>
