@@ -23,8 +23,13 @@ class LessonsController < ApplicationController
 
 	def contact
 	end
-	
 
+	def feedback
+	end
+
+	def newsletter
+	end
+	
 	private
 
 	def lesson_params
