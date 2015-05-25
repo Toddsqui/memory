@@ -29,6 +29,9 @@ class LessonsController < ApplicationController
 
 	def newsletter
 	end
+
+	def apa
+	end
 	
 	private
 

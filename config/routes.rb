@@ -7,6 +7,7 @@ get 'resources', :to => 'lessons#resources'
 get 'contact', :to => 'lessons#contact'
 get 'feedback', :to => 'lessons#feedback'
 get 'newsletter', :to => 'lessons#newsletter'
+get 'apa', :to => 'lessons#apa'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
