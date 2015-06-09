@@ -13,11 +13,8 @@
 
 ActiveRecord::Schema.define(version: 20150525031328) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "lessons", force: true do |t|
-    t.text     "lesson"
+    t.text     "lesson",     limit: 255
     t.string   "author"
     t.datetime "created_at"
     t.datetime "updated_at"

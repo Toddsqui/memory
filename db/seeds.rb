@@ -5,3 +5,4 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Lesson.create(lesson: "The more you can turn what you are trying to remember into something memorable, the easier it will be to recall. You will want to say the word and its meaning aloud, to start setting auditory hooks to the material", author: "Oakley, 2014, p. 173")
